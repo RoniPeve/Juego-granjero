@@ -37,8 +37,7 @@ namespace PJuego
 
         private void PicIntegrantes_Click(object sender, EventArgs e)
         {
-           Form formulario = new FormIntegrantes();
-            formulario.ShowDialog();
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)

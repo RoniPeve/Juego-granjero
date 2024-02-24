@@ -19,7 +19,6 @@ C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.cs
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.exe
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.pdb
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\PJuego.FormInformacion.resources
-C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\PJuego.FormIntegrantes.resources
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.csprojAssemblyReference.cache
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.Ganaste.resources
 C:\Users\RONI\Documents\Visual Studio 2019\proyectos\GAME\GAME\obj\Debug\GAME.csproj.CoreCompileInputs.cache

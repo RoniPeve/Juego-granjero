@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             this.picInformacion = new System.Windows.Forms.PictureBox();
-            this.picIntegrantes = new System.Windows.Forms.PictureBox();
             this.picComenzar = new System.Windows.Forms.PictureBox();
             this.iconcerrar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picInformacion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIntegrantes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComenzar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             this.SuspendLayout();
@@ -50,18 +48,6 @@
             this.picInformacion.TabIndex = 0;
             this.picInformacion.TabStop = false;
             this.picInformacion.Click += new System.EventHandler(this.PicInformacion_Click);
-            // 
-            // picIntegrantes
-            // 
-            this.picIntegrantes.BackColor = System.Drawing.Color.Transparent;
-            this.picIntegrantes.Image = global::GAME.Properties.Resources.trabajo_en_equipo;
-            this.picIntegrantes.Location = new System.Drawing.Point(293, 12);
-            this.picIntegrantes.Name = "picIntegrantes";
-            this.picIntegrantes.Size = new System.Drawing.Size(137, 77);
-            this.picIntegrantes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picIntegrantes.TabIndex = 1;
-            this.picIntegrantes.TabStop = false;
-            this.picIntegrantes.Click += new System.EventHandler(this.PicIntegrantes_Click);
             // 
             // picComenzar
             // 
@@ -97,7 +83,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.iconcerrar);
             this.Controls.Add(this.picComenzar);
-            this.Controls.Add(this.picIntegrantes);
             this.Controls.Add(this.picInformacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Inicio";
@@ -105,7 +90,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.picInformacion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIntegrantes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picComenzar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             this.ResumeLayout(false);
@@ -115,7 +99,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox picInformacion;
-        private System.Windows.Forms.PictureBox picIntegrantes;
         private System.Windows.Forms.PictureBox picComenzar;
         private System.Windows.Forms.PictureBox iconcerrar;
     }
